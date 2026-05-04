@@ -1,0 +1,39 @@
+
+body {
+  margin: 0px;
+}
+
+#container {
+  height: 100vh;
+  position: relative;
+  background-color: rgb(130, 157, 254);
+  overflow: hidden;
+}
+
+.cloud {
+  width: 200px;
+  height: 80px;
+  background-color: whitesmoke;
+  border-radius: 40px;
+  position: absolute;
+}
+
+.cloudBubble1 {
+  width: 100px;
+  height: 100px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  position: absolute;
+  top: -50px;
+  left: 30px;
+}
+
+.cloudBubble2 {
+  width: 60px;
+  height: 60px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  position: absolute;
+  top: -30px;
+  right: 30px;
+}
